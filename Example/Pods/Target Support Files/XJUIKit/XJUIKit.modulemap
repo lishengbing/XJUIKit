@@ -1,0 +1,6 @@
+framework module XJUIKit {
+  umbrella header "XJUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

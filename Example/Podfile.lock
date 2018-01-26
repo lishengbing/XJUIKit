@@ -1,0 +1,22 @@
+PODS:
+  - XJUIKit (0.0.1):
+    - XJUIKit/SLButton (= 0.0.1)
+    - XJUIKit/SLTextField (= 0.0.1)
+    - XJUIKit/SLTextView (= 0.0.1)
+  - XJUIKit/SLButton (0.0.1)
+  - XJUIKit/SLTextField (0.0.1)
+  - XJUIKit/SLTextView (0.0.1)
+
+DEPENDENCIES:
+  - XJUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  XJUIKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XJUIKit: 16d65b64c0badddc7b2a163be37faca88d1d385f
+
+PODFILE CHECKSUM: 1e8aef07483ff39873325c50a372651086f0d189
+
+COCOAPODS: 1.4.0
