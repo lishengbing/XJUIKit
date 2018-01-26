@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XJUIKit_Example' do
+  pod 'XJUIKit', :path => '../'
+
+  target 'XJUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
