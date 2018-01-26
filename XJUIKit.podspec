@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XJUIKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XJUIKit.'
+  s.version          = '0.0.1'
+  s.summary          = 'XJUIKit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  XJUIKit: XJ系列的UIkit组件
                        DESC
 
   s.homepage         = 'https://github.com/lishengbing/XJUIKit'
@@ -30,11 +30,29 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XJUIKit/Classes/**/*'
+#s.source_files = 'XJUIKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'XJUIKit' => ['XJUIKit/Assets/*.png']
-  # }
+  s.subspec 'SLButton' do | b |
+      
+      b.source_files = 'XJUIKit/Classes/SLButton/**/*'
+      
+  end
+  
+  s.subspec 'SLTextField' do | f |
+      
+      f.source_files = 'XJUIKit/Classes/SLTextField/**/*'
+      
+  end
+  
+  s.subspec 'SLTextView' do | t |
+      
+      t.source_files = 'XJUIKit/Classes/SLTextView/**/*'
+      
+  end
+  
+   s.resource_bundles = {
+     'XJUIKit' => ['XJUIKit/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
