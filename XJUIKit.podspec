@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XJUIKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.6'
   s.summary          = 'XJUIKit.'
 
 # This description is used to generate tags and improve search results.

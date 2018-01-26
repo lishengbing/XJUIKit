@@ -624,38 +624,6 @@
 			};
 			name = Debug;
 		};
-		439CCCF2E8DC459866982ED6B1B7CCE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC3338B57DCFEE70AC9AD44D798F298B /* XJUIKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XJUIKit/XJUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XJUIKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XJUIKit/XJUIKit.modulemap";
-				PRODUCT_NAME = XJUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5770DBB2046ED74A68B1EC7B766793E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4BE8EA980873581675F5AE0857406D9A /* Pods-XJUIKit_Tests.release.xcconfig */;
@@ -705,7 +673,7 @@
 			};
 			name = Release;
 		};
-		78E0D8F5A02D9F9577299B976DEEC253 /* Debug */ = {
+		823ED7B05B58F04F1177315D70C12D42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC3338B57DCFEE70AC9AD44D798F298B /* XJUIKit.xcconfig */;
 			buildSettings = {
@@ -728,13 +696,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8900529DC6B99F3CED13A49482ECC4F9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -885,6 +854,37 @@
 			};
 			name = Debug;
 		};
+		FFD2CEAACDF0E689A63400472F9AF9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3338B57DCFEE70AC9AD44D798F298B /* XJUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XJUIKit/XJUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XJUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XJUIKit/XJUIKit.modulemap";
+				PRODUCT_NAME = XJUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -918,8 +918,8 @@
 		93B6B145B9F17FEE432D71A3C8B730E6 /* Build configuration list for PBXNativeTarget "XJUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78E0D8F5A02D9F9577299B976DEEC253 /* Debug */,
-				439CCCF2E8DC459866982ED6B1B7CCE9 /* Release */,
+				FFD2CEAACDF0E689A63400472F9AF9C5 /* Debug */,
+				823ED7B05B58F04F1177315D70C12D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

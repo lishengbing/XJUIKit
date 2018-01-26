@@ -1,11 +1,11 @@
 PODS:
-  - XJUIKit (0.0.1):
-    - XJUIKit/SLButton (= 0.0.1)
-    - XJUIKit/SLTextField (= 0.0.1)
-    - XJUIKit/SLTextView (= 0.0.1)
-  - XJUIKit/SLButton (0.0.1)
-  - XJUIKit/SLTextField (0.0.1)
-  - XJUIKit/SLTextView (0.0.1)
+  - XJUIKit (0.0.5):
+    - XJUIKit/SLButton (= 0.0.5)
+    - XJUIKit/SLTextField (= 0.0.5)
+    - XJUIKit/SLTextView (= 0.0.5)
+  - XJUIKit/SLButton (0.0.5)
+  - XJUIKit/SLTextField (0.0.5)
+  - XJUIKit/SLTextView (0.0.5)
 
 DEPENDENCIES:
   - XJUIKit (from `../`)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  XJUIKit: 16d65b64c0badddc7b2a163be37faca88d1d385f
+  XJUIKit: 586f3ea623f9ac4744b3c74f0715c04867691f29
 
 PODFILE CHECKSUM: 1e8aef07483ff39873325c50a372651086f0d189
 
